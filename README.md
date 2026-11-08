@@ -8,7 +8,7 @@ Final-year engineering student at Mines Nancy (applied math & data science), dua
 #### Start here
 
 - **[saac-jepa](https://github.com/ostertagmatthieu-dev/saac-jepa)**: code for *World Models for Cross-Machine CNC Transfer under Partial Sensor Overlap*, A. L. Bouaziz, M. Ostertag, **A. Demasles**. [arXiv:2609.16071](https://arxiv.org/abs/2609.16071) · poster at the BMVA Symposium on World Models (London, Nov 2026). My part: data pipeline and evaluation protocol, integrated by M. Ostertag. Reported as is: on the target machine the locked model beats persistence (RMSE 0.546 vs 0.654) but explains almost none of the variance (R² 0.012).
-  - V2, multi-machine follow-up: **[cnc-world-models](https://github.com/ademasles/cnc-world-models)**, builds on saac-jepa as a dependency; first item, a scored survey of public CNC datasets for a new, unopened target machine.
+  - V2, multi-machine follow-up: **cnc-world-models** (private until the benchmark's first public release), builds on saac-jepa as a dependency; first item, a scored survey of public CNC datasets for a new, unopened target machine.
 - **[TODO: Project 3A repo]**: calibrated world models under distribution shift (PyTorch, in progress). Measuring and repairing the calibration loss caused by RevIN under cross-machine shift.
 - **[les_zelles](https://github.com/ademasles/les_zelles)**: turns French construction tenders into cited, verified spec sheets. Rules engine + optional LLM + knowledge graph + MCP. Held-out F1 0.86 on real tenders at $0 per document; 105 tests, `mypy --strict`.
 - **[scene-to-score](https://github.com/ademasles/scene-to-score)**: predicts a film scene's music in latent space, then generates it (OSSL-v2, 34k public-domain clips). [TODO: status / results]
@@ -27,3 +27,4 @@ Final-year engineering student at Mines Nancy (applied math & data science), dua
 PyTorch · Python · TypeScript · AWS
 
 [arXiv](https://arxiv.org/abs/2609.16071) · [LinkedIn](https://linkedin.com/in/anton-demasles) · [ORCID](https://orcid.org/0009-0008-0640-6622) · demaslesa@gmail.com
+
